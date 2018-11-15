@@ -30,3 +30,11 @@ Environments supported:
 - Node.js: [TextEncoder](https://nodejs.org/api/util.html#util_class_util_textencoder) and [TextDecoder](https://nodejs.org/api/util.html#util_class_util_textdecoder)
 
 Compatibility: Node.js does not support the `*Stream` encoding interfaces. The set of encoding supported by Node is dependent on compilation options; see Node documentation for more details.
+
+### WebAssembly JS API
+
+Spec: https://www.w3.org/TR/wasm-js-api-1/
+
+Environments supported:
+- [Web](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly)
+- Node.js: not documented yet
