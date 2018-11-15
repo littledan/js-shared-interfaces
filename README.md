@@ -3,8 +3,8 @@ Many JavaScript APIs, originally created for the Web Platform, are being impleme
 ### Sections
 
 - [Global object](https://github.com/littledan/js-shared-interfaces/blob/master/GLOBALS.md): Globals implemented in multiple environments
-- [Built-in modules](https://github.com/littledan/js-shared-interfaces/blob/master/MODULES.md): Proposed modules in the `@std/` namespace
-- [import.meta](https://github.com/littledan/js-shared-interfaces/blob/master/IMPORTMETA.md): Properties of the `import.meta` object
+- [Built-in modules](https://github.com/littledan/js-shared-interfaces/blob/master/MODULES.md): Proposed built-in modules
+- [import.meta](https://github.com/littledan/js-shared-interfaces/blob/master/IMPORTMETA.md): Shipping and proposed properties of the `import.meta` object
 
 ### Goals
 
