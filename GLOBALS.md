@@ -1,6 +1,6 @@
 ## Multi-environment properties of the global object
 
-Properties of the global object are the entry-point to the Web's current JavaScript APIs, as built-in modules are not yet exposed. This page documents
+Properties of the global object are the entry-point to the web's current JavaScript APIs, as built-in modules are not yet exposed. This page documents
 
 ### Conventions
 - Only include APIs which have built-in support in at least two environments, at least one of which is the Web.
@@ -13,17 +13,17 @@ Properties of the global object are the entry-point to the Web's current JavaScr
 
 ### URL
 
-Spec: https://github.com/whatwg/url/
+Spec: https://url.spec.whatwg.org
 
 Environments supported:
 - [Web](https://developer.mozilla.org/en-US/docs/Web/API/URL#Browser_compatibility)
 - [Node.js](https://nodejs.org/api/url.html)
 
-Compatibility: Node.js implements same interface, modulo brand checks and IDL mistakes in Node.js (TODO: be more specific)
+Compatibility: Node.js implements the same interface, modulo brand checks and IDL mistakes in Node.js (TODO: be more specific)
 
 ### Encoding standard
 
-Spec: https://github.com/whatwg/encoding
+Spec: https://encoding.spec.whatwg.org
 
 Environments supported:
 - [Web](https://developer.mozilla.org/en-US/docs/Web/API/Encoding_API)
