@@ -21,6 +21,14 @@ Environments supported:
 
 Compatibility: Node.js implements the same interface, modulo brand checks and IDL mistakes in Node.js (TODO: be more specific)
 
+### URLSearchParams
+
+Spec: https://url.spec.whatwg.org/#interface-urlsearchparams
+
+Environments supported:
+- [Web](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
+- [Node.js](https://nodejs.org/api/url.html#url_class_urlsearchparams)
+
 ### Encoding standard
 
 Spec: https://encoding.spec.whatwg.org
@@ -38,3 +46,11 @@ Spec: https://www.w3.org/TR/wasm-js-api-1/
 Environments supported:
 - [Web](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly)
 - Node.js: not documented yet
+
+### Console API
+
+Spec: https://console.spec.whatwg.org
+
+Environments supported:
+- Web
+- [Node.js](https://nodejs.org/api/console.html)
