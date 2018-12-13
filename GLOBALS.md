@@ -17,7 +17,7 @@ Spec: https://url.spec.whatwg.org
 
 Environments supported:
 - [Web](https://developer.mozilla.org/en-US/docs/Web/API/URL#Browser_compatibility)
-- [Node.js]: [URL](https://nodejs.org/api/url.html) and [URLSearchParams](https://nodejs.org/api/url.html#url_class_urlsearchparams)
+- Node.js: [URL](https://nodejs.org/api/url.html) and [URLSearchParams](https://nodejs.org/api/url.html#url_class_urlsearchparams)
 
 Compatibility: Node.js implements the same interface, modulo brand checks and IDL mistakes in Node.js (TODO: be more specific)
 
