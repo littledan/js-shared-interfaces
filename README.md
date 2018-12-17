@@ -21,6 +21,6 @@ Many JavaScript APIs, originally created for the Web Platform, are being impleme
 - Include any interfaces exposed by TC39 standards (which are already presumed to be cross-environment)
 - Include polyfills (may make sense in the future, but keep scope minimal at first)
 
-### Standards track
+### Why is this a personal repository?
 
-It's unclear whether this repository will evolve into any document which requires standardization as such. However, to encourage freely shared development, if there's interest, the intention is to pursue it in a [WICG](https://github.com/WICG), with the possibility to move into a W3C CG/WG structure if useful in the future.
+I don't want to have this as a personal repository forever, but it's unclear whether this repository will evolve into any document which requires standardization as such. To encourage freely shared development, I hope to move ownership to a larger, neutral organization, such as a foundation, or W3C [WICG](https://github.com/WICG).
