@@ -44,5 +44,5 @@ Environments supported:
 Spec: https://console.spec.whatwg.org
 
 Environments supported:
-- Web
+- [Web](https://developer.mozilla.org/en-US/docs/Web/API/console)
 - [Node.js](https://nodejs.org/api/console.html)
