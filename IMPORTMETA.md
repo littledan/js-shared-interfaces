@@ -10,7 +10,7 @@ At a high level, roughly, this means: the directory where the running module cam
 
 Environment support:
 - [Shipping on the Web](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import.meta#Browser_compatibility)
-- [Shipping in Node.js](https://nodejs.org/api/esm.html#esm_import_meta)
+- [Shipping in Node.js](https://nodejs.org/api/esm.html#esm_import_meta) (Still experimental, modules are being re-considered by the Modules Team)
 
 ### `resolveURL`
 
