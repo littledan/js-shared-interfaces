@@ -18,6 +18,13 @@ For interfaces to be considered analogous, there should be some evidence that de
 - **Node.js API**: [Node Streams](https://nodejs.org/api/stream.html)
 - **Mitigation strategies**: [whatwg-stream](https://github.com/nodejs/whatwg-stream) effort to implement WHATWG Streams as a Node.js module; [`readable-stream`](https://www.npmjs.com/package/readable-stream) provides Node streams for the Web
 
+## Buffers
+
+- **Purpose**: Interaction with octet streams
+- **Web API**: [ArrayBuffer API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
+- **Node.js API** [Buffer API](https://nodejs.org/api/buffer.html)
+- **Mitigation strategies**: Newer versions of Node.js have [Buffer.from(arrayBuffer)](https://nodejs.org/api/buffer.html#buffer_class_method_buffer_from_arraybuffer_byteoffset_length) method and the `Buffer` is an instance of a [TypedArray](https://nodejs.org/api/buffer.html#buffer_buffers_and_typedarray) with a few caveats.
+
 ## HTTP access
 
 - **Purpose**: Open, read and write to an HTTP, HTTPS, HTTP2 connection
@@ -41,7 +48,7 @@ For interfaces to be considered analogous, there should be some evidence that de
 
 ## Cancel[l]ation
 
-- **Purpose**: Provide APIs which cancel asynchronous processes, asynchronous requests, promises, etc.
+- **Purpose**: Provide APIs which 
 - **Web API**: [AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
 - **Node API**: ??
 - **Mitigation strategies**: ??
