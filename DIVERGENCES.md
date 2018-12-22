@@ -41,7 +41,7 @@ For interfaces to be considered analogous, there should be some evidence that de
 
 ## Cancel[l]ation
 
-- **Purpose**: Provide APIs which 
+- **Purpose**: Provide APIs which cancel asynchronous processes, asynchronous requests, promises, etc.
 - **Web API**: [AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
 - **Node API**: ??
 - **Mitigation strategies**: ??
