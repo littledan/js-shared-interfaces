@@ -1,6 +1,8 @@
 ## Multi-environment properties of the global object
 
-Properties of the global object are the entry-point to the web's current JavaScript APIs, as built-in modules are not yet exposed. This page documents
+Properties of the global object are the entry-point to the web's current JavaScript APIs, as built-in modules are not yet exposed. This page documents properties of the global object that are shared between embedders, and the level of compatibility between them.
+
+Note, information about Node.js compatibility [is welcome](https://github.com/mdn/browser-compat-data/issues/3280#issuecomment-453486379) in MDN.
 
 ### Conventions
 - Only include APIs which have built-in support in at least two environments, at least one of which is the Web.
