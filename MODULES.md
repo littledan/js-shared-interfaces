@@ -9,13 +9,13 @@ Note that the modules in this document are often early drafts, and the names are
 - Current proposals share an idea of a shared module specifier prefix like `std:` or `@std/`. This document omits the module prefix, on the assumption that a common prefix will be used by all JS shared built-in modules. If multiple prefixes are used, then split this into separate documents for each namespace.
 - Include built-in modules from both TC39 and web efforts (as they are sharing this new namespace, and this document could help coordination).
 
-### `async-local-storage`
+### `kv-storage`
 
-[GitHub repo](https://github.com/domenic/async-local-storage)
+[GitHub repo](https://github.com/wicg/kv-storage)
 
 ### `virtual-scroller`
 
-[GitHub repo](https://github.com/valdrinkoshi/virtual-scroller)
+[GitHub repo](https://github.com/wicg/virtual-scroller)
 
 ### `temporal`
 
