@@ -15,6 +15,8 @@ The following modules have been proposed in a provisional fashion. To be on this
 - Standards track (e.g. have an explainer in a standards organization)
 - Implementer interest (from any runtime)
 
+(These acceptance criteria are tentative and still up for discussion!)
+
 Discussion of these names is encouraged in their respective GitHub repositories. A proposal which does not progress can have its name be re-allocated.
 
 ### `kv-storage`
@@ -43,10 +45,8 @@ Discussion of these names is encouraged in their respective GitHub repositories.
 
 ## Allocated
 
-The following modules have become stabilized and the corresonding names should be considered permanently allocated. To be on this list, a module needs to have:
+We expect that at some point built-in modules may graduate from being considered "provisional" to being "allocated". No module has yet reached this kind of acceptance, so we don't know exactly what this looks like, but some initial ideas might be that we require:
 
 - A full standard
 - A test suite
 - Multi-implementer commitment
-
-(No modules have yet reached this stage.)
