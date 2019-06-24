@@ -1,22 +1,52 @@
-## Proposed built-in modules
+# Built-in modules
 
-Built-in modules is a proposed feature of the web platform, in the [Layered API](https://github.com/drufball/layered-apis), [JavaScript standard library](http://github.com/tc39/proposal-javascript-standard-library/) and [import maps](https://github.com/domenic/import-maps) proposals.
+Support for built-in modules is a proposed feature of various JavaScript runtimes, via mechanisms such as the [JavaScript standard library](http://github.com/tc39/proposal-javascript-standard-library/) TC39 proposal, the [Web IDL modules](https://github.com/heycam/webidl/pull/675) proposal, or various Node.js TSC discussions.
 
-Note that the modules in this document are often early drafts, and the names are not final. No built-in modules have shipped to the web at the time of writing this document.
+## Conventions
 
-### Conventions
+- Current proposals share an idea of a shared module specifier prefix, so far tentatively `std:`. This document omits the module prefix, on the assumption that a common prefix will be used by all JS shared built-in modules. If multiple prefixes are used, then split this into separate documents for each namespace.
+- Include built-in modules from all runtimes and standards bodies which wish to coordinate in the shared namespace.
+- Alphabetize modules within their lists
 
-- Current proposals share an idea of a shared module specifier prefix like `std:` or `@std/`. This document omits the module prefix, on the assumption that a common prefix will be used by all JS shared built-in modules. If multiple prefixes are used, then split this into separate documents for each namespace.
-- Include built-in modules from both TC39 and web efforts (as they are sharing this new namespace, and this document could help coordination).
+## Provisional
+
+The following modules have been proposed in a provisional fashion. To be on this list, they need to have:
+
+- Standards track (e.g. have an explainer in a standards organization)
+- Implementer interest (from any runtime)
+
+(These acceptance criteria are tentative and still up for discussion!)
+
+Discussion of these names is encouraged in their respective GitHub repositories. A proposal which does not progress can have its name be re-allocated.
 
 ### `kv-storage`
 
-[GitHub repo](https://github.com/wicg/kv-storage)
-
-### `virtual-scroller`
-
-[GitHub repo](https://github.com/wicg/virtual-scroller)
+- Standards group: WICG, hoping to graduate to W3C IndexedDB specification
+- [GitHub repo](https://github.com/wicg/kv-storage)
+- [Explainer](https://github.com/WICG/kv-storage/blob/master/README.md)
+- [Specification](https://wicg.github.io/kv-storage/)
+- [Tests](https://github.com/web-platform-tests/wpt/tree/master/kv-storage)
+- Implementer interest: Blink, Gecko
 
 ### `temporal`
 
-[GitHub repo](https://github.com/tc39/proposal-temporal)
+- Standards group: Ecma TC39
+- [GitHub repo](https://github.com/tc39/proposal-temporal)
+- [Explainer](https://github.com/tc39/proposal-temporal/blob/master/README.md)
+- [Specification](https://tc39.es/proposal-temporal/spec-rendered)
+- Implementer interest: ?
+
+### `virtual-scroller`
+
+- Standards group: WICG, hoping to graduate to the WHATWG HTML Standard
+- [GitHub repo](https://github.com/wicg/virtual-scroller)
+- [Explainer](https://github.com/wicg/virtual-scroller/blob/master/README.md)
+- Implementer interest: Blink
+
+## Allocated
+
+We expect that at some point built-in modules may graduate from being considered "provisional" to being "allocated". No module has yet reached this kind of acceptance, so we don't know exactly what this looks like, but some initial ideas might be that we require:
+
+- A full standard
+- A test suite
+- Multi-implementer commitment
