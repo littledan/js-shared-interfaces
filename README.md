@@ -3,7 +3,6 @@ Many JavaScript APIs, originally created for the Web Platform, are being impleme
 ### Sections
 
 - [Global object](https://github.com/littledan/js-shared-interfaces/blob/master/GLOBALS.md): Globals implemented in multiple environments
-- [Built-in modules](https://github.com/littledan/js-shared-interfaces/blob/master/MODULES.md): Proposed built-in modules
 - [import.meta](https://github.com/littledan/js-shared-interfaces/blob/master/IMPORTMETA.md): Shipping and proposed properties of the `import.meta` object
 - [Divergences](https://github.com/littledan/js-shared-interfaces/blob/master/DIVERGENCES.md): Places where multiple environments ship analogous APIs, and JavaScript programmers have been picking up the pieces to bridge them
 
